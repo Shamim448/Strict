@@ -1,0 +1,274 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* ======Glabal css========== */
+.container {
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row {
+	width: 100%;
+	float: left;
+}
+
+.col-md-12 {
+	width: 100%;
+	float: left;
+}
+
+.col-md-4 {
+	width: 33.33%;
+	float: left;
+}
+
+/* ====Header section start===== */
+#header-section {
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 10px 0px;
+}
+
+.logo {
+	width: 100%;
+	float: left;
+}
+
+/* ====Header section end===== */
+/* ====Banner section start===== */
+#banner-section {
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+.banner-inner {
+	width: 100%;
+	float: left;
+	padding: 90px 0px 12px;
+}
+
+.banner-inner h1 {
+	font-size: 120px;
+	line-height: 90px;
+	font-weight: 700;
+	padding-bottom: 25px;
+	color: #ffffff;
+}
+
+.divider {
+	background: #15a4fa;
+	width: 600px;
+	height: 2px;
+	margin: 0 auto;
+}
+
+.banner-inner p {
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 25px;
+	margin: 40px 70px;
+}
+
+.banner-inner .btn {
+	border: 2px solid #15a4fa;
+	border-radius: 5px;
+	padding: 10px 30px;
+	color: #ffffff;
+	font-size: 18px;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+}
+
+.banner-inner .btn:hover {
+	border: 2px solid #ffffff;
+	color: #15a4fa;
+}
+
+
+
+.arrow {
+	margin: 137px 0px 0px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.arrow img {}
+
+/* ====Banner section End===== */
+/* ====Simple section Start===== */
+#simple-section {
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 75px 0 110px;
+}
+
+.simple-inner {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.simple-inner h2 {
+	font-size: 40px;
+	color: #2d3950;
+}
+
+.simple-inner p {
+	font-size: 20px;
+	margin-top: 35px;
+	color: #999999;
+}
+
+/* ====Simple section End===== */
+/* ====Feature section Start===== */
+#feature-section {
+	background: #ffffff;
+	width: 100%;
+	float: left;
+	padding: 65px 0px 70px;
+}
+
+.feature-inner {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.feature-inner img {}
+
+.feature-inner h4 {
+	color: #2d3950;
+	font-size: 22px;
+	padding: 20px 0px;
+}
+
+.feature-inner p {
+	color: #999999;
+	font-size: 15px;
+}
+
+/* ====Feature section End===== */
+/* ====Contact section Start===== */
+/*----------STAY WITH US--------*/
+#contact-section {
+	background: url(../img/contact.jpg) no-repeat center;
+	display: block;
+	background-size: cover;
+	text-align: center;
+	padding: 70px 0 15px;
+	width: 100%;
+	float: left;
+}
+
+.contact-inner h3 {
+	font-size: 41px;
+	color: #ffffff;
+}
+
+.contact-inner p {
+	font-size: 15px;
+	line-height: 23px;
+	color: #999999;
+	margin: 15px 40px;
+}
+
+.contact-inner form input[type="text"] {
+	height: 60px;
+	width: 535px;
+	display: block;
+	margin: 0 auto 20px;
+	background: none;
+	border: 1px solid .999999;
+	border-radius: 3px;
+	padding-left: 20px;
+	transition: all;
+	transition-duration: 0.5s;
+}
+
+.contact-inner form input[type="text"]:hover,
+.contact-inner form input[type="text"]:focus {
+	border: 1px solid #15a4fa;
+}
+
+.contact-inner form textarea {
+	height: 160px;
+	width: 535px;
+	background: none;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 25px;
+	display: block;
+	margin: 0 auto 10px;
+	transition: all;
+	transition-duration: 0.5s;
+}
+
+.contact-inner form textarea:hover,
+.contact-inner form textarea:focus {
+	border: 1px solid #15a4fa;
+}
+
+.contact-inner .ft_submit {
+	width: 535px;
+	margin: 0 auto;
+	text-align: left;
+	color: #ffffff;
+}
+
+.contact-inner .ft_submit input[type="checkbox"] {
+	margin: 30px 10px 0 0;
+}
+
+.contact-inner .ft_submit input[type="submit"] {
+	float: right;
+	height: 47px;
+	width: 140px;
+	background: none;
+	border: 1px solid .15a4fa;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+.contact-inner .ft_submit input[type="submit"]:hover {
+	border: 1px solid .000;
+	background: #fff;
+	color: #000;
+	transition: all;
+	transition-duration: 0.5s;
+}
