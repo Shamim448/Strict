@@ -184,14 +184,19 @@ a:hover {
 
 /* ====Feature section End===== */
 /* ====Contact section Start===== */
-/*----------STAY WITH US--------*/
+
 #contact-section {
 	background: url(../img/contact.jpg) no-repeat center;
-	display: block;
 	background-size: cover;
-	text-align: center;
+
 	padding: 70px 0 15px;
 	width: 100%;
+	float: left;
+}
+
+.contact-inner {
+	text-align: center;
+	width: 90%;
 	float: left;
 }
 
@@ -244,31 +249,34 @@ a:hover {
 	border: 1px solid #15a4fa;
 }
 
-.contact-inner .ft_submit {
+.ft_submit {
 	width: 535px;
 	margin: 0 auto;
 	text-align: left;
 	color: #ffffff;
 }
 
-.contact-inner .ft_submit input[type="checkbox"] {
+.ft_submit input[type="checkbox"] {
 	margin: 30px 10px 0 0;
 }
 
-.contact-inner .ft_submit input[type="submit"] {
+.ft_submit input[type="submit"] {
 	float: right;
 	height: 47px;
 	width: 140px;
 	background: none;
-	border: 1px solid .15a4fa;
+	border: 1px solid #15a4fa;
 	margin-top: 10px;
 	border-radius: 3px;
+	color: #ffffff;
 }
 
-.contact-inner .ft_submit input[type="submit"]:hover {
-	border: 1px solid .000;
-	background: #fff;
-	color: #000;
-	transition: all;
-	transition-duration: 0.5s;
+.ft_submit input[type="submit"]:hover {
+	border: 1px solid #ffffff;
+	color: #15a4fa;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
 }
