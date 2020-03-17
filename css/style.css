@@ -183,6 +183,86 @@ a:hover {
 }
 
 /* ====Feature section End===== */
+/* ====Portfollio section Start===== */
+#portfolio-section {
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+
+.portfolio-title {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.portfolio-title h2 {
+	font-size: 41px;
+	color: #2d3950;
+	margin-bottom: 16px;
+}
+
+.portfolio-title p {
+	font-size: 15px;
+	color: #909090;
+}
+
+.portfollio-inner {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.portfollio-inner img {
+	width: 100%;
+
+}
+
+.protfollio-hover {
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(21, 164, 250, 0.9);
+	height: 100%;
+	display: none;
+
+}
+
+.protfollio-hover ul {
+	position: absolute;
+	top: 47% !important;
+	left: 33%;
+}
+
+.protfollio-hover ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.protfollio-hover ul li a {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.portfollio-inner:hover .protfollio-hover {
+	display: block;
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+
+.mr-top {
+	margin-top: 20px;
+}
+
 /* ====Contact section Start===== */
 
 #contact-section {
