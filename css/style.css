@@ -207,7 +207,7 @@ a:hover {
 	color: #909090;
 }
 
-.portfollio-inner {
+.portfolio-inner {
 	position: relative;
 	width: 100%;
 	float: left;
@@ -218,31 +218,31 @@ a:hover {
 
 }
 
-.protfollio-hover {
-	width: 100%;
-	float: left;
+.port-hover {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	background: rgba(21, 164, 250, 0.9);
-	height: 100%;
+	width: 95%;
+	height: 98%;
 	display: none;
-
 }
 
-.protfollio-hover ul {
+.port-hover ul {
 	position: absolute;
 	top: 47% !important;
 	left: 33%;
 }
 
-.protfollio-hover ul li {
+
+
+.port-hover ul li {
 	list-style: none;
 	display: inline-block;
 	margin: 0px 5px;
 }
 
-.protfollio-hover ul li a {
+.port-hover ul li a {
 	color: #ffffff;
 	border: 1px solid #ffffff;
 	border-radius: 2px;
@@ -250,7 +250,7 @@ a:hover {
 	font-size: 20px;
 }
 
-.portfollio-inner:hover .protfollio-hover {
+.portfolio-inner:hover .port-hover {
 	display: block;
 	transition: all 1s ease;
 	-webkit-transition: all 1s ease;
@@ -260,7 +260,7 @@ a:hover {
 }
 
 .mr-top {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 /* ====Contact section Start===== */
@@ -360,3 +360,51 @@ a:hover {
 	-ms-transition: all .5s ease;
 	-o-transition: all .5s ease;
 }
+
+/* ====Contact section End===== */
+
+/* ====Footer section Start===== */
+#footer-section {
+	width: 100%;
+	height: 60px;
+	background: #f6f9f9;
+	float: left;
+}
+
+.footer-inner {
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.footer-inner p {
+	float: left;
+	font-size: 15px;
+	color: #999999;
+}
+
+.footer-inner ul {
+	float: right;
+	margin-bottom: 15px;
+}
+
+.footer-inner ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-inner ul li a {
+	text-align: center;
+	font-size: 15px;
+	margin: 0px 3px;
+}
+
+.footer-inner ul li a i {
+	width: 35px;
+	height: 32px;
+	background: #15a4fa;
+	color: #ffffff;
+	line-height: 32px;
+	border-radius: 2px;
+}
+
+/* ====Footer section End===== */
